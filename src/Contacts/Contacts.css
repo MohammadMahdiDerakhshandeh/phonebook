@@ -1,0 +1,22 @@
+.favIcon {
+  color: yellow;
+  cursor: pointer;
+  font-size: x-large;
+}
+
+.action {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.deleteIcon {
+  color: darkred;
+  cursor: pointer;
+  font-size: x-large;
+}
+
+.editIcon {
+  color: darkcyan;
+  cursor: pointer;
+  font-size: x-large;
+}

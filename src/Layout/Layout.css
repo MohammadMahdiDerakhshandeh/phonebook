@@ -1,0 +1,23 @@
+.header {
+  padding: 15px 20px 15px 20px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.title {
+  height: 32px;
+  padding : 15px;
+  color: rgba(255, 255, 255, 0.65);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid hsla(0,0%,100%,.212);
+  box-sizing: content-box;
+}
+.mainDiv {
+  padding: 36px 31px;
+  background: white;
+  border-radius: 20px;
+}
+
