@@ -1,4 +1,4 @@
-import { UserAddOutlined, UserOutlined } from "@ant-design/icons";
+import { ImportOutlined, UserAddOutlined, UserOutlined } from "@ant-design/icons";
 import { Button, Divider, Layout, Menu, Space } from "antd";
 import { useContext, useEffect, useState } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
@@ -35,9 +35,6 @@ function LayoutPanel() {
     navigate("/login");
   }
 
-  window.addEventListener("resize", () =>
-    window.innerWidth < 900 ? setCollapsed(true) : setCollapsed(false)
-  );
 
   function handleNavigate(e) {
     navigate(e.key);
@@ -71,7 +68,7 @@ function LayoutPanel() {
           <Space split={<Divider type="vertical" />}>
             <span>{username}</span>
             <Button onClick={handleLogout} danger>
-              خروج
+              خروج<ImportOutlined/>
             </Button>
           </Space>
         </Header>
