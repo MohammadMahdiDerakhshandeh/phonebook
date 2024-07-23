@@ -11,7 +11,7 @@ import EditUser from "./EditUser";
 import fa_IR from "antd/locale/fa_IR";
 import Login from "./Login";
 import PrivateRoute from "./PrivateRoute";
-import AuthContextProvider from "./authContextProvider";
+import AuthContextProvider from "./context/authContextProvider";
 import NotFound from "./NotFound";
 function App() {
   const router = createBrowserRouter([

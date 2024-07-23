@@ -3,7 +3,7 @@ import { Button, Divider, Layout, Menu, Space } from "antd";
 import { useContext, useEffect, useState } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 import "./Layout.css";
-import { authCtx } from "../authContext";
+import { authCtx } from "../context/authContext";
 const { Header, Content, Sider } = Layout;
 function getItem(label, key, icon, children) {
   return {

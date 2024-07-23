@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { Navigate } from "react-router-dom";
-import { authCtx } from "./authContext";
+import { authCtx } from "./context/authContext";
 
 function PrivateRoute({ children }) {
   const {token} = useContext(authCtx)

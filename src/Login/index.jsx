@@ -2,7 +2,7 @@ import { Button, Card, Form, Input } from "antd";
 import "./Login.css";
 import { useNavigate } from "react-router-dom";
 import { useContext, useEffect, useState } from "react";
-import { authCtx } from "../authContext";
+import { authCtx } from "../context/authContext";
 function Login() {
   const { login } = useContext(authCtx);
   const [isDisabled, setIsDisabled] = useState(false);
